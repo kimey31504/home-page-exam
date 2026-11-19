@@ -1,0 +1,21 @@
+:root {
+	--bp-text-dark: #0f172a;
+	--bp-text-body: #334155;
+}
+
+body {
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+	color: var(--bp-text-body);
+	background-color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+	font-family: 'Geist', sans-serif;
+	color: var(--bp-text-dark);
+	letter-spacing: -0.025em;
+}
+
+.font-monospace {
+	font-family: 'JetBrains Mono', monospace;
+}
